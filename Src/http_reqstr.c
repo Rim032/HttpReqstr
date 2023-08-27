@@ -148,7 +148,7 @@ int main(int argc, char* argv[])
     }
 
     char* net_msg_ptr = (char*)malloc(sizeof(net_msg));
-    char* desired_address_ptr = (char*)malloc(sizeof(net_msg));
+    char* desired_address_ptr = (char*)malloc(sizeof(desired_address));
 
 
     WSADATA wsa;
